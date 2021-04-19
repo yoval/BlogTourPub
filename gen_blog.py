@@ -26,7 +26,7 @@ for file in FilePaths:
 
 
 FileDictListJson = json.dumps(FileDictList,ensure_ascii=False)
-with open('list.json','w') as f:
+with open('list.json','w',encoding='utf-8') as f:
     f.write(FileDictListJson)
 
 
